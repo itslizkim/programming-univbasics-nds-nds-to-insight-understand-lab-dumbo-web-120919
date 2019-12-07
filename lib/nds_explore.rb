@@ -9,5 +9,12 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  spielberg = directors_database
+  spielberg = directors_database[0][:movies]
+  i = 0
+
+  while i < spielberg.length do
+    titles = spielberg[index][:title]
+    puts titles
+    i += 1
+  end
 end
