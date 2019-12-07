@@ -4,7 +4,7 @@ p 'directors_database'# Call the method di rectors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
   require 'pp'
-  pp 'directors_database'# Change the code below to pretty print the nds with pp
+  pp nds
 
 end
 
