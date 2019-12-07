@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
-p 'directors_database'# Call the method di rectors_database to retrieve the NDS
+# Call the method di rectors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
   require 'pp'
